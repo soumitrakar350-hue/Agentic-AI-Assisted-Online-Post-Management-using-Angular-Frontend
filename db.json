@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "title": "hello hi",
+      "description": "hello World ojk\n",
+      "user_id": "Ygq4IcUuMfk",
+      "id": "Ca1eOsM9RBA"
+    },
+    {
+      "title": "i am bappa",
+      "description": "Hi bappa",
+      "user_id": "Ygq4IcUuMfk",
+      "id": "wCooChkZNFk"
+    },
+    {
+      "title": "hi ",
+      "description": "hi Jone, How r U?\n\n",
+      "user_id": "jvqk-B4ZSAE",
+      "id": "o03HqleyBi8"
+    },
+    {
+      "title": "hello",
+      "description": "hello world",
+      "user_id": "jvqk-B4ZSAE",
+      "id": "SAjul1C7jZM"
+    },
+    {
+      "title": "ok",
+      "description": "good",
+      "user_id": "Ygq4IcUuMfk",
+      "id": "nUzEiEAq65c"
+    }
+  ],
+  "users": [
+    {
+      "name": "Soumitra kar",
+      "email": "soumitrakar@gmail.com",
+      "pass1": "Bappa@123",
+      "id": "Ygq4IcUuMfk"
+    },
+    {
+      "name": "Jone Dho",
+      "email": "jonedho@gmail.com",
+      "pass1": "Jone@123",
+      "id": "jvqk-B4ZSAE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

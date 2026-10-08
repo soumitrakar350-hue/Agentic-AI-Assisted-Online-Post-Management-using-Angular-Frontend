@@ -1,0 +1,70 @@
+ <!-- Fixed Navbar -->
+    <nav class="fixed top-0 left-0 w-full bg-purple-700 text-white shadow-lg z-50">
+
+        <div class="max-w-7xl mx-auto px-4">
+
+            <div class="flex items-center justify-between h-16">
+
+                <!-- Logo -->
+                <a href="#" class="text-xl font-bold">
+                    MyApp
+                </a>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-6">
+
+                    <a href="#" class="hover:text-purple-200">
+                        Home
+                    </a>
+
+                    <a [routerLink]="['/users']" class="hover:text-purple-200">
+                        Users
+                    </a>
+
+                    <a [routerLink]="['/posts']" class="hover:text-purple-200">
+                        Posts
+                    </a>
+
+                     <a [routerLink]="['/chatbot']" class="hover:text-purple-200">
+                        ChatBot
+                    </a>
+
+
+                </div>
+
+                <!-- Mobile Button -->
+                <button
+                    class="md:hidden text-white text-2xl"
+                    onclick="document.getElementById('mobileMenu').classList.toggle('hidden')">
+
+                    ☰
+
+                </button>
+
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden pb-4">
+
+                <a href="#"
+                   class="block py-2 px-3 hover:bg-purple-600 rounded">
+                    Home
+                </a>
+
+                <a [routerLink]="['/users']"
+                   class="block py-2 px-3 hover:bg-purple-600 rounded">
+                    Users
+                </a>
+
+                <a [routerLink]="['/posts']"
+                   class="block py-2 px-3 hover:bg-purple-600 rounded">
+                    Posts
+                </a>
+                 <a [routerLink]="['/chatbot']" class="block py-2 px-3 hover:bg-purple-600 rounded">
+                        ChatBot
+                    </a>
+            </div>
+
+        </div>
+
+    </nav>
